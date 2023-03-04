@@ -22,16 +22,16 @@ if (salarioBase <= 1903.98) {
     salarioLiquido = salarioBase
 
 } else if (salarioBase >= 1903.99 && salarioBase < 2826.65) {
-    salarioLiquido = salarioBase - ((salarioBase * 0.075) - 142.80)
+    salarioLiquido = salarioBase - ((salarioBase * 0.075) - 142.80);
 
 } else if (salarioBase >= 2826.66 && salarioBase < 3751.05) {
-    salarioLiquido = salarioBase - ((salarioBase * 0.15) - 354.80)
+    salarioLiquido = salarioBase - ((salarioBase * 0.15) - 354.80);
 
 } else if (salarioBase >= 3751.06 && salarioBase < 4664.68) {
-    salarioLiquido = salarioBase - ((salarioBase * 0.225) - 636.13)
+    salarioLiquido = salarioBase - ((salarioBase * 0.225) - 636.13);
 
 } else if (salarioBase > 4664.68) {
-    salarioLiquido = salarioBase - ((salarioBase * 0.275) - 839.36)
+    salarioLiquido = salarioBase - ((salarioBase * 0.275) - 839.36);
 
 }
  console.log(salarioLiquido)
