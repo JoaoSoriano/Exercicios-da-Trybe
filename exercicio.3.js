@@ -1,7 +1,7 @@
 // Exercício - Imposto de Renda
 
 let salarioLiquido;
-let salarioBruto = 16648
+let salarioBruto = 1664
 let salarioBase;
 
 if (salarioBruto <= 1556.94) {
